@@ -1,1 +1,9 @@
-
+h3 {   
+    color: blue; 
+    animation-delay: 1s;
+    left: 80px;
+}
+div{
+    animation-delay: 1s;
+    left: 80px;
+}
