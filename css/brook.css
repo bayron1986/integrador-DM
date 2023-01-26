@@ -1,5 +1,5 @@
 body{
-    
+    background-color: #adb0adbd;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: oblique;
@@ -8,7 +8,8 @@ body{
     line-height: 100%;
     margin-top: auto;
 }
-img {
-    width: 50%;
-    margin: left 20px;
+.fotobrook {
+ margin-top: 10%;
+margin left: 20%;
     }
+    
