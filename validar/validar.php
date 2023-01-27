@@ -15,7 +15,7 @@ if($filas){
     header("location:index.html");
 
 }else{
-    include("home.html");
+    include("location:home.html");
     ?>
     <h1>ERROR DE AUTENTIFICACION Nakama</h1>
     <?php
