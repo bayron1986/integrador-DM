@@ -1,9 +1,75 @@
+/*========================================================== -->
+                        <!-- "barra nav y titulo" -->
+  <!--========================================================== */
+
+  @font-face{
+    font-family: onepiece;
+    src: url(OnePiece-zAqL.ttf);
+  }
+h1{
+    font-family: onepiece;
+
+
+}
+
+
+
+/*--========================================================== -->
+                        <!-- body -->
+  <!--========================================================== */
+
 body{
-    
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     font-style: oblique;
     font-weight: 200;
     text-align: justify;
     line-height: 100%;
+    margin-top: 20px;
 }
+
+/*--========================================================== -->
+                        <!-- personajes -->
+  <!--========================================================== */
+#characters{
+    margin-top: 20px;
+    margin-left: 10PX;
+}
+
+/*--========================================================== -->
+                        <!-- mapas -->
+  <!--========================================================== */
+
+#maps{
+    margin-top: 20px;
+}
+  .text-center
+{
+    margin-top: 50px;
+}
+
+
+
+
+/*--========================================================== -->
+                        <!-- frutas -->
+  <!--========================================================== */
+.accordion-body{
+ 
+  background: -webkit-linear-gradient(rgb(248, 247, 246), pink);
+  background: -moz-linear-gradient(rgb(248, 247, 246), pink);
+  background: -o-linear-gradient(rgb(248, 247, 246), pink); 
+}
+
+/*--========================================================== -->
+                        <!-- footer final -->
+  <!--========================================================== */
+
+
+#final{
+   background: -webkit-linear-gradient(rgb(248, 247, 246), pink);
+   background: -moz-linear-gradient(rgb(248, 247, 246), pink);
+   background: -o-linear-gradient(rgb(248, 247, 246), pink);
+   
+  }
