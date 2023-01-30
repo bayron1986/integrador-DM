@@ -1,4 +1,17 @@
 body{
-    background-image: url("../img/peques.jpg");
+    background-image: url("../img/one-piece-logo-7.png"); 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+img{
+    width: 60px;
+    height: 40px;
+}
+.login{
+    font-size: 30px;
+margin-top: 0.5%;
+margin-left: 40%;
 
 }
