@@ -1,15 +1,20 @@
 /*========================================================== -->
                         <!-- "barra nav y titulo" -->
   <!--========================================================== */
-
-  @font-face{
-    font-family: onepiece;
-    src: url(OnePiece-zAqL.ttf);
-  }
-h1{
-    font-family: onepiece;
-
-
+.onep{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  text-align: left;
+  box-shadow: 0 0 30px rgb(55, 54, 66);
+}
+iframe{
+  margin-left: 50;
+}
+.img_logo{
+width: 50px;
+height: 50px;
 }
 
 
@@ -18,15 +23,19 @@ h1{
                         <!-- body -->
   <!--========================================================== */
 
-body{
-
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+.oneforall{
+  
+  font-family: 'Yuji Mai', serif;
+    font-size: 20px;
     font-style: oblique;
     font-weight: 200;
     text-align: justify;
     line-height: 100%;
     margin-top: 20px;
+    background: -webkit-linear-gradient(rgb(247, 246, 248), rgb(143, 143, 173));
+   background: -moz-linear-gradient(rgb(248, 247, 246), rgb(158, 158, 214));
+   background: -o-linear-gradient(rgb(248, 247, 246), rgb(118, 118, 182));
+   
 }
 
 /*--========================================================== -->
@@ -36,6 +45,11 @@ body{
     margin-top: 20px;
     margin-left: 10PX;
 }
+.logoluffy{
+  width: 60px;
+height: 50px;
+}
+
 
 /*--========================================================== -->
                         <!-- mapas -->
@@ -43,14 +57,26 @@ body{
 
 #maps{
     margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+    
 }
+
   .text-center
 {
     margin-top: 50px;
 }
 
+.img-fluid{
+  margin: 20px auto;
+  border-radius: 25px;
+  box-shadow: 0 0 20px rgb(34, 33, 32);
+}
 
-
+.logo_mapa{
+  width:100px ; height:75px;
+  border-radius: 20px;
+}
 
 /*--========================================================== -->
                         <!-- frutas -->
